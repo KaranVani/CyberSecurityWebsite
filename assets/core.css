@@ -21,7 +21,7 @@ body {
 /*---------------Navigation--------------- */
 header {
     grid-area: head;
-	background-color: lightslategray;
+	background-color: navajowhite;
 }
 
 nav {
@@ -40,8 +40,9 @@ nav a{
 }
 nav a:hover{
 	color: black;
+    text-decoration: underline;
 	transform: scale(1.1);
-	transition: 0.5s;
+	transition: 0.s;
 }
 /*---------------END OF Navigation--------------- */
 
@@ -71,13 +72,16 @@ img {
 	
 }
 
-img:hover {
+/* F - VPersonally I don't think we need hover transition on imagesV */
+
+/* img:hover {
 	transform: scale(1.1);
 	transition: 0.75s;
-}
+} */
 
 .content, .images {
 	padding: 30px;
+    font-size: 20px;
 }
 
 /*---------------END OF Images--------------- */
@@ -99,10 +103,12 @@ img:hover {
 	transition: 0.5s;
 }
 
-#hero h1:hover{
+/* F - V Personally I dislike the hover on hero V. */
+
+/* #hero h1:hover{
 	transform: scale(1.1);
 	transition: 0.5s;
-}
+} */ 
 
 /*---------------END OF hero--------------- */
 
