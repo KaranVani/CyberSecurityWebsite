@@ -36,7 +36,7 @@ nav a{
     text-decoration: none;
 	color: white;
     font-size: 35px;
-	transition: 0.5s;
+	/* transition: 0.5s; F - Don't think we need this when the page loads */
 }
 nav a:hover{
 	color: black;
@@ -100,7 +100,7 @@ img {
 #hero h1{
 	font-size: 100px;
 	color: navajowhite;
-	transition: 0.5s;
+	/* transition: 0.5s; F - Don't think we need this when the page loads */
 }
 
 /* F - V Personally I dislike the hover on hero V. */
