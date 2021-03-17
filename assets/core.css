@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{padding:0;margin:0;border:0;min-height: 100vh;}
+
+/* ---------------Body---------------- */
+
+body {
+    display: grid;
+    /* Set width: aside main */
+    /* Set height: head main/aside foot */
+    grid-template-rows: 100px 1fr 100px;
+    /* Layout by row */
+    grid-template-areas: "head head"
+                         "main main"
+                         "foot foot";
+	background-color: ghostwhite;
+}
+
+/*---------------END OF Body ---------------*/
+
+/*---------------Navigation--------------- */
+header {
+    grid-area: head;
+	background-color: lightslategray;
+}
+
+nav {
+    grid-area: head;
+	background-color: black;
+}
+nav a{
+	display: flex;
+	float: right;
+	list-style: none;
+	padding: 10px 20px 10px 20px;
+    text-decoration: none;
+	color: white;
+    font-size: 35px;
+	transition: 0.5s;
+}
+nav a:hover{
+	color: black;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+/*---------------END OF Navigation--------------- */
+
+/*---------------Main--------------- */
+main {
+    grid-area: main;
+    /* Set min height to 3 page heights */
+    min-height: 300vh;
+}
+
+#posts article {
+  display: flex;
+}
+
+#posts article:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+
+/*---------------END OF Main--------------- */
+
+/*---------------Images--------------- */
+
+img {
+	max-width: 600px;
+	transition: 0.75s;
+	
+}
+
+img:hover {
+	transform: scale(1.1);
+	transition: 0.75s;
+}
+
+.content, .images {
+	padding: 30px;
+}
+
+/*---------------END OF Images--------------- */
+
+/*---------------Hero--------------- */
+#hero {
+    background-image: url("images/keyboard.jpg");
+	min-height: 50vh;
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+	display: grid;
+	place-items: center;
+}
+
+#hero h1{
+	font-size: 100px;
+	color: navajowhite;
+	transition: 0.5s;
+}
+
+#hero h1:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+/*---------------END OF hero--------------- */
+
+
+/* ---------------Footer--------------- */
+footer {
+	
+    grid-area: foot;
+}
+/*---------------End of Footer---------------*/
+
+/*---------------Media queries---------------*/
+@media screen and (max-width: 768px) {
+  body {
+      /* Set width: aside main */
+      grid-template-columns: 1fr;
+      /* Set height: head main/aside foot */
+      grid-template-rows: 100px 200px 1fr 100px;
+      /* Layout by row */
+      grid-template-areas: "head"
+                           "main"
+                           "foot";
+  }
+}
