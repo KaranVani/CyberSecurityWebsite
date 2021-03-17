@@ -42,7 +42,7 @@ nav a:hover{
 	color: black;
     text-decoration: underline;
 	transform: scale(1.1);
-	transition: 0.s;
+	transition: 0.1s;
 }
 /*---------------END OF Navigation--------------- */
 
@@ -81,7 +81,7 @@ img {
 
 .content, .images {
 	padding: 30px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /*---------------END OF Images--------------- */
