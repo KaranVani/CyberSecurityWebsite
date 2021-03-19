@@ -2,7 +2,14 @@
 <html lang="en">
 	<head>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+		<script src="assets/core.js"></script>
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js">
+		</script>
+		<script>
+        	ScrollReveal({ reset: true });
+    	</script>
+
 		<meta charset="utf-8">
 		<title>index.html</title>
 <link rel="stylesheet" href="assets/core.css">
@@ -96,5 +103,9 @@
 		<br>
 		
 	</footer>
+	<script>
+		ScrollReveal().reveal('.content', { delay: 300 })
+		ScrollReveal().reveal('.images', { delay: 700 })
+	</script>
 </body>
 </html>
