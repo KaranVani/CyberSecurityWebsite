@@ -35,13 +35,11 @@ header {
 	
 }
 
-nav {
-    grid-area: head;
-	background-color: black;
-	
-	
+header ul {
+	list-style: none;
 }
-nav a{
+
+header a{
 	display: flex;
 	float: right;
 	list-style: none;
@@ -50,11 +48,15 @@ nav a{
 	color: white;
     font-size: 35px;
 }
-nav a:hover{
+header a:hover{
 	color: black;
     text-decoration: underline;
 	transform: scale(1.1);
 	transition: 0.1s;
+}
+
+html.sr .listz {
+  visibility: hidden;
 }
 /*---------------END OF Navigation--------------- */
 
