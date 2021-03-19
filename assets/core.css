@@ -13,7 +13,9 @@ body {
     grid-template-areas: "head head"
                          "main main"
                          "foot foot";
-	background-color: ghostwhite;
+	background-color: #969696;
+	color: #fff;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 /*---------------END OF Body ---------------*/
@@ -21,12 +23,14 @@ body {
 /*---------------Navigation--------------- */
 header {
     grid-area: head;
-	background-color: navajowhite;
+	background-color: dimgray;
+	padding-top: 20px;
 }
 
 nav {
     grid-area: head;
 	background-color: black;
+	
 }
 nav a{
 	display: flex;
@@ -36,7 +40,6 @@ nav a{
     text-decoration: none;
 	color: white;
     font-size: 35px;
-	/* transition: 0.5s; F - Don't think we need this when the page loads */
 }
 nav a:hover{
 	color: black;
@@ -69,15 +72,8 @@ main {
 img {
 	max-width: 600px;
 	transition: 0.75s;
-	
 }
 
-/* F - VPersonally I don't think we need hover transition on imagesV */
-
-/* img:hover {
-	transform: scale(1.1);
-	transition: 0.75s;
-} */
 
 .content, .images {
 	padding: 30px;
@@ -99,16 +95,9 @@ img {
 
 #hero h1{
 	font-size: 100px;
-	color: navajowhite;
-	/* transition: 0.5s; F - Don't think we need this when the page loads */
+	color: #FFFFFF;
 }
-
-/* F - V Personally I dislike the hover on hero V. */
-
-/* #hero h1:hover{
-	transform: scale(1.1);
-	transition: 0.5s;
-} */ 
+ 
 
 /*---------------END OF hero--------------- */
 
@@ -117,7 +106,11 @@ img {
 footer {
 	
     grid-area: foot;
+	background-color: dimgray;
+	text-align: center;
+	padding-top: 13px;
 }
+
 /*---------------End of Footer---------------*/
 
 /*---------------Media queries---------------*/
