@@ -16,20 +16,29 @@ body {
 	background-color: #969696;
 	color: #fff;
 	font-family: 'Julius Sans One', sans-serif;
+
 }
 
+
 /*---------------END OF Body ---------------*/
+
+/* ---------------Text markups---------------- */
+
+
+/*---------------END OF Text Markups ---------------*/
 
 /*---------------Navigation--------------- */
 header {
     grid-area: head;
 	background-color: dimgray;
 	padding-top: 20px;
+	
 }
 
 nav {
     grid-area: head;
 	background-color: black;
+	
 	
 }
 nav a{
@@ -62,6 +71,10 @@ main {
 
 #posts article:nth-child(odd) {
   flex-direction: row-reverse;
+}
+
+#posts h2{
+	text-decoration: underline;
 }
 
 
