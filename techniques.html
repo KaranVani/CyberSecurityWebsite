@@ -1,26 +1,116 @@
 <!doctype html>
 <html lang="en">
 	<head>
-	<meta charset="utf-8">
-	<title>index.html</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+		<script src="assets/core.js"></script>
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js">
+		</script>
+		<script>
+        	ScrollReveal({ reset: true });
+			
+		
+		</script>
+
+		<meta charset="utf-8">
+		<title>index.html</title>
 <link rel="stylesheet" href="assets/core.css">
 </head>
 
 <body>
 	<header>
-  		<nav>
-			<a href="index.html">Home</a>
-			<a href="privacy.html">Privacy</a>
-			<a href="Security.html">Security</a>
-			<a href="Techniques.html">Techniques</a>
-			<a href="contact.html">Contact</a>
-		</nav>
+  		<ul class="listz">
+			<li class="listzz"><a href="index.html">Home</a></li>
+			<li class="listzz"><a href="privacy.html">Privacy</a></li>
+			<li class="listzz"><a href="security.html">Security</a></li>
+			<li class="listzz"><a href="techniques.html">Techniques</a></li>
+			<li class="listzz"><a href="contact.html">Contact</a></li>
+		</ul>
 	</header>
 	<main>
-  		<h1>THIS IS THE TECHNIQUES PAGE</h1>
+		<section id="hero">
+			<h1>Cyber Security</h1><!-- This is a 'hero' image to attract attention to the user -->
+		</section>
+		
+		
+		<section id="posts">
+		
+			<article id="week1">
+				<div class="images">
+					<figure>
+      					<img src="assets/images/stock1.jpg" alt="Picture of me ripping my hair out" />
+						<br>
+						<figcaption>I am losing my brains<br>
+						<small>shutterstock</small>
+						</figcaption>
+					</figure>	
+				
+    			</div>
+		
+				<div class="content">
+					<h2 class="titlez" load-hidden>Topic 1</h2>
+					<small>Published on <time datetime="2021-69-69"><strong>February 69?, 2020</strong></time></small>
+
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam laboriosam beatae
+						    libero harum alias in quo adipisci facilis nesciunt repellendus iusto eum rem, fugiat suscipit
+						    consequuntur. Eius, recusandae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing
+						    elit. Nobis facere rerum eos sequi dolore sit ducimus quam aperiam iusto! Obcaecati amet quam voluptatum
+							maxime omnis aliquid eligendi autem dolore libero! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Fugiat odio animi aliquid perspiciatis corrupti numquam officiis vero nostrum harum laudantium provident fugit
+							iste quasi, voluptate facilis temporibus non? Voluptate, accusamus! Lorem ipsum dolor sit amet consectetur 
+							adipisicing elit. Odio repellendus blanditiis doloribus dolore rerum amet, quia tempora voluptas, velit earum
+							molestias reprehenderit minima. Minima similique eum quasi illo illum odit?
+						
+						</p>
+				</div>
+				</div>
+			</article>
+			
+			<article id="week2">
+				<div class="images">
+					<figure>
+      					<img src="assets/images/stock3.jpg" alt="Picture of animal abuse?" />
+						<br>
+						<figcaption>PEW PEW PEW <br>
+						<small>shutterstock</small>
+						</figcaption>
+					</figure>	
+				
+    			</div>
+		
+				<div class="content">
+					<h2>Topic 2</h2> 
+					<small>Published on <time datetime="2021-69-69"><strong>February 69?, 2020</strong></time></small>
+
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam laboriosam beatae
+						    libero harum alias in quo adipisci facilis nesciunt repellendus iusto eum rem, fugiat suscipit
+						    consequuntur. Eius, recusandae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing
+						    elit. Nobis facere rerum eos sequi dolore sit ducimus quam aperiam iusto! Obcaecati amet quam voluptatum
+							maxime omnis aliquid eligendi autem dolore libero! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Fugiat odio animi aliquid perspiciatis corrupti numquam officiis vero nostrum harum laudantium provident fugit
+							iste quasi, voluptate facilis temporibus non? Voluptate, accusamus! Lorem ipsum dolor sit amet consectetur 
+							adipisicing elit. Odio repellendus blanditiis doloribus dolore rerum amet, quia tempora voluptas, velit earum
+							molestias reprehenderit minima. Minima similique eum quasi illo illum odit?
+						</p>
+				</div>
+				</div>
+			</article>
+		</section>
 	</main>
 	<footer>
-		Footer
+		Copyright @ Group B 2021
+		<br>
+		
 	</footer>
+	<script>
+		
+		ScrollReveal().reveal('.content', { delay: 50 })
+		ScrollReveal().reveal('.images', { delay: 50 })
+		ScrollReveal().reveal('.listzz', { interval: 200 });
+	</script>
 </body>
 </html>
