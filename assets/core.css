@@ -99,8 +99,8 @@ img {
 
 /*---------------Hero--------------- */
 #hero {
-    background-image: url("images/hackerman.jpg");
-	min-height: 50vh;
+    background-image: url("images/sotck.jpg");
+	min-height: 100vh;
 	background-position: center; 
   	background-repeat: no-repeat; 
   	background-size: cover;
