@@ -13,7 +13,7 @@ body {
     grid-template-areas: "head head"
                          "main main"
                          "foot foot";
-	background-color: #969696;
+	background-color: #181818;
 	color: #fff;
 	font-family: 'Julius Sans One', sans-serif;
 
@@ -30,7 +30,7 @@ body {
 /*---------------Navigation--------------- */
 header {
     grid-area: head;
-	background-color: dimgray;
+	background: color #212121;;
 	padding-top: 20px;
 	
 }
