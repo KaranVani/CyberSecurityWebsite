@@ -13,7 +13,6 @@ body {
     grid-template-areas: "head head"
                          "main main"
                          "foot foot";
-	background-color: #181818;
 	color: #fff;
 	font-family: 'Julius Sans One', sans-serif;
 
@@ -30,7 +29,7 @@ body {
 /*---------------Navigation--------------- */
 header {
     grid-area: head;
-	background: color #212121;;
+	background-color:  #212121;
 	padding-top: 20px;
 	
 }
@@ -41,7 +40,7 @@ header ul {
 
 header a{
 	display: flex;
-	float: right;
+	float: left;
 	list-style: none;
 	padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -65,6 +64,8 @@ main {
     grid-area: main;
     /* Set min height to 3 page heights */
     min-height: 300vh;
+
+	background-color: #181818;
 }
 
 #posts article {
@@ -121,7 +122,7 @@ img {
 footer {
 	
     grid-area: foot;
-	background-color: dimgray;
+	background-color:  #212121;
 	text-align: center;
 	padding-top: 13px;
 }
