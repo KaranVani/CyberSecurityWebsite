@@ -101,6 +101,7 @@ img {
 /*---------------Hero--------------- */
 #hero {
     background-image: url("images/sotck.jpg");
+   /* background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("images/sotck.jpg"); */
 	min-height: 100vh;
 	background-position: center; 
   	background-repeat: no-repeat; 
