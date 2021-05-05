@@ -14,7 +14,7 @@ body {
                          "main main"
                          "foot foot";
 	color: #fff;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 
@@ -116,30 +116,7 @@ img {
 }
 
 
-  .container {
-    font-size:40px;
-    font-family: 'Red Hat Display', sans-serif;
-    letter-spacing:1.5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:600px;
-    height:40px;
-  }
-
-  .container * {
-    display:inline-block;
-    overflow:hidden;
-    position:absolute;
-  }
-
-  .bar {
-    width:3px;
-    height:49px;
-    position:absolute;
-    top:-1px;
-  }
+  
   
 
 /*---------------END OF hero--------------- */
