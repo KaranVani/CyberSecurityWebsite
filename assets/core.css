@@ -121,6 +121,16 @@ img {
 
 /*---------------END OF hero--------------- */
 
+/*-----------------QUIZ-------------------- */
+
+section #questionbox{
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    background-color: #cccccc;
+}
+
+/*--------------END OF QUIZ --------------- */
 
 /* ---------------Footer--------------- */
 footer {
