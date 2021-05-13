@@ -90,6 +90,10 @@ main {
   text-decoration: underline;
 }
 
+#posts a {
+  color: rgb(179, 179, 85);
+}
+
 
 .button {
   background-color: #7798b3;
