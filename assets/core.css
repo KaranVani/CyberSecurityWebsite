@@ -169,11 +169,13 @@ img {
 
 /*-----------------QUIZ-------------------- */
 
-.questionbox {
-  margin: 15px 15px 15px 15px;
-  padding: 10px 10px 10px 10px;
-  max-width: 100%;
-  background-color: #353434;
+
+
+.quiz{
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    background-color: #353434;
 }
 
 /*--------------END OF QUIZ --------------- */
