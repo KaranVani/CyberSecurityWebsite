@@ -58,6 +58,11 @@ header a:hover{
 html.sr .listz {
   visibility: hidden;
 }
+
+.active-page {
+    background-color: #2b5329;
+    color: black;
+}
 /*---------------END OF Navigation--------------- */
 
 /*---------------Main--------------- */
