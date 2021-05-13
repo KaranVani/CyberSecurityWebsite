@@ -38,6 +38,7 @@ header {
   padding-top: 0px;
   position: sticky;
   top: 0;
+  z-index: +300;
 }
 
 header ul {
@@ -122,6 +123,7 @@ main {
   top: 0;
   right: -20px;
   transition: 0.5s;
+  z-index: -1;
 }
 
 .button:hover span {
@@ -154,7 +156,7 @@ img {
 #hero {
   background-image: url("images/sotck.jpg");
   background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/sotck.jpg");
-  min-height: 100vh;
+  min-height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
