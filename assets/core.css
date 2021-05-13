@@ -1,58 +1,63 @@
 @charset "utf-8";
 /* CSS Document */
-html,body{padding:0;margin:0;border:0;min-height: 100vh; scroll-behavior:smooth;}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
 
 /* ---------------Body---------------- */
 
 body {
-    display: grid;
-    /* Set width: aside main */
-    /* Set height: head main/aside foot */
-    grid-template-rows: 100px 1fr 100px;
-    /* Layout by row */
-    grid-template-areas: "head head"
-                         "main main"
-                         "foot foot";
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-
+  display: grid;
+  /* Set width: aside main */
+  /* Set height: head main/aside foot */
+  grid-template-rows: 100px 1fr 100px;
+  /* Layout by row */
+  grid-template-areas:
+    "head head"
+    "main main"
+    "foot foot";
+  color: #fff;
+  font-family: "Lato", sans-serif;
 }
-
 
 /*---------------END OF Body ---------------*/
 
 /* ---------------Text markups---------------- */
 
-
 /*---------------END OF Text Markups ---------------*/
 
 /*---------------Navigation--------------- */
 header {
-    grid-area: head;
-	background-color:  #212121;
-	padding-top: 0px;
-	position:sticky;
-    top:0;
+  grid-area: head;
+  background-color: #212121;
+  padding-top: 0px;
+  position: sticky;
+  top: 0;
 }
 
 header ul {
-	list-style: none;
+  list-style: none;
 }
 
-header a{
-	display: flex;
-	float: left;
-	list-style: none;
-	padding: 10px 20px 10px 20px;
-    text-decoration: none;
-	color: white;
-    font-size: 35px;
+header a {
+  display: flex;
+  float: left;
+  list-style: none;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
 }
-header a:hover{
-	color: black;
-    text-decoration: underline;
-	transform: scale(1.1);
-	transition: 0.1s;
+header a:hover {
+  color: black;
+  text-decoration: underline;
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 
 html.sr .listz {
@@ -60,17 +65,17 @@ html.sr .listz {
 }
 
 .active-page {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 /*---------------END OF Navigation--------------- */
 
 /*---------------Main--------------- */
 main {
-    grid-area: main;
-    /* Set min height to 3 page heights */
-    min-height: 300vh;
+  grid-area: main;
+  /* Set min height to 3 page heights */
+  min-height: 300vh;
 
-	background-color: #181818;
+  background-color: #181818;
 }
 
 #posts article {
@@ -81,83 +86,90 @@ main {
   flex-direction: row-reverse;
 }
 
-#posts h2{
-	text-decoration: underline;
+#posts h2 {
+  text-decoration: underline;
 }
 
+.button {
+  background-color: #4c82af;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 /*---------------END OF Main--------------- */
 
 /*---------------Images--------------- */
 
 img {
-	max-width: 600px;
-	transition: 0.75s;
+  max-width: 600px;
+  transition: 0.75s;
 }
 
-
-.content, .images {
-	padding: 30px;
-    font-size: 24px;
+.content,
+.images {
+  padding: 30px;
+  font-size: 24px;
 }
 
 /*---------------END OF Images--------------- */
 
 /*---------------Hero--------------- */
 #hero {
-    background-image: url("images/sotck.jpg");
-   /* background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("images/sotck.jpg"); */
-	min-height: 100vh;
-	background-position: center; 
-  	background-repeat: no-repeat; 
-  	background-size: cover;
-	display: grid;
-	place-items: center;
+  background-image: url("images/sotck.jpg");
+  /* background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("images/sotck.jpg"); */
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
 }
 
-#hero h1{
-	font-size: 100px;
-	color: #FFFFFF;
+#hero h1 {
+  font-size: 100px;
+  color: #ffffff;
 }
-
-
-  
-  
 
 /*---------------END OF hero--------------- */
 
 /*-----------------QUIZ-------------------- */
 
-.questionbox{
-    margin: 15px 15px 15px 15px;
-    padding: 10px 10px 10px 10px;
-    max-width: 100%;
-    background-color: #353434;
+.questionbox {
+  margin: 15px 15px 15px 15px;
+  padding: 10px 10px 10px 10px;
+  max-width: 100%;
+  background-color: #353434;
 }
 
 /*--------------END OF QUIZ --------------- */
 
 /* ---------------Footer--------------- */
 footer {
-	
-    grid-area: foot;
-	background-color:  #212121;
-	text-align: center;
-	padding-top: 13px;
+  grid-area: foot;
+  background-color: #212121;
+  text-align: center;
+  padding-top: 13px;
 }
-
 
 /*---------------End of Footer---------------*/
 /*---------------Media queries---------------*/
 @media screen and (max-width: 768px) {
   body {
-      /* Set width: aside main */
-      grid-template-columns: 1fr;
-      /* Set height: head main/aside foot */
-      grid-template-rows: 100px 200px 1fr 100px;
-      /* Layout by row */
-      grid-template-areas: "head"
-                           "main"
-                           "foot";
+    /* Set width: aside main */
+    grid-template-columns: 1fr;
+    /* Set height: head main/aside foot */
+    grid-template-rows: 100px 200px 1fr 100px;
+    /* Layout by row */
+    grid-template-areas:
+      "head"
+      "main"
+      "foot";
   }
 }
