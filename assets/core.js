@@ -16,6 +16,8 @@ count = 0;
 
 if(document.getElementById("q1a").checked){
     count++
+    document.getElementsByClassName("quiz").style.color = 'blue';
+
 }if(document.getElementById("q2a").checked){
     count++
 }if(document.getElementById("q3a").checked){
@@ -25,6 +27,7 @@ if(document.getElementById("q1a").checked){
 
 output.textContent = "You got " +count+ " correct.";
 
+  
 
 
 
