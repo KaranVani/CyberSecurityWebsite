@@ -11,7 +11,8 @@ var correct = 0;
 
 
 function submit(){
-var answers = document.querySelectorAll("#value");
+var answers = document.querySelector
+console.log(answers)
 let output = document.querySelector("#output");
 
 

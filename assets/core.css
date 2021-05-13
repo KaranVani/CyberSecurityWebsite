@@ -54,7 +54,6 @@ header a {
   font-size: 35px;
 }
 header a:hover {
-  color: rgb(24, 60, 179);
   text-decoration: underline;
   transform: scale(1.1);
   transition: 0.1s;
@@ -65,7 +64,7 @@ html.sr .listz {
 }
 
 .active-page {
-  color: rgb(24, 60, 179);
+  color: #7798b3;
 }
 /*---------------END OF Navigation--------------- */
 
@@ -91,7 +90,7 @@ main {
 }
 
 .button {
-  background-color: #4c82af;
+  background-color: #7798b3;
   border: none;
   color: white;
   text-align: center;
