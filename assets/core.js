@@ -7,33 +7,23 @@ function init() {
 var submitBtn = document.querySelector('#submitbutton');
 
 submitBtn.addEventListener('click', submit);
-var correct = 0;
 
+let output = document.querySelector("#output");
+output.textContent = "";
 
 function submit(){
-var answers = document.querySelector
-console.log(answers)
-let output = document.querySelector("#output");
+count = 0;
 
-
-for (let i = 0; i < answers.length; i++) {
-    if (answers[i].checked) {
-        
-        correct++
-
-        
-
-        
-        
-    }
-
-
+if(document.getElementById("q1a").checked){
+    count++
+}if(document.getElementById("q2a").checked){
+    count++
+}if(document.getElementById("q3a").checked){
+    count++
 }
 
-console.log(correct);
 
-
-
+output.textContent = "You got " +count+ " correct.";
 
 
 
