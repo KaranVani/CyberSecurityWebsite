@@ -90,7 +90,7 @@ main {
   text-decoration: underline;
 }
 
-#posts a {
+.reslink {
   color: rgb(179, 179, 85);
 }
 
@@ -111,9 +111,7 @@ main {
   margin: 5px;
 }
 
-.button span{
-  color: white;
-}
+
 
 /* animation for the button from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1 */
 
@@ -131,7 +129,6 @@ main {
   top: 0;
   right: -20px;
   transition: 0.5s;
-  z-index: -1;
 }
 
 .button:hover span {
