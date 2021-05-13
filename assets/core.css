@@ -111,6 +111,10 @@ main {
   margin: 5px;
 }
 
+.button span{
+  color: white;
+}
+
 /* animation for the button from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1 */
 
 .button span {
