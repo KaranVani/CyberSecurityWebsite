@@ -58,6 +58,11 @@ header a:hover{
 html.sr .listz {
   visibility: hidden;
 }
+
+.active-page {
+    background-color: #2b5329;
+    color: black;
+}
 /*---------------END OF Navigation--------------- */
 
 /*---------------Main--------------- */
@@ -128,7 +133,7 @@ img {
     margin: 15px 15px 15px 15px;
     padding: 10px 10px 10px 10px;
     max-width: 100%;
-    background-color: #cccccc;
+    background-color: #353434;
 }
 
 /*--------------END OF QUIZ --------------- */
