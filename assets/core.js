@@ -27,7 +27,7 @@ if(document.getElementById("q1a").checked){
 }
 
 
-output.textContent = "You got " +count+ " correct.";
+output.textContent = "You got " +count+ " out of 5 correct.";
 
   
 
