@@ -24,6 +24,8 @@ if(document.getElementById("q1a").checked){
     count++
 }if(document.getElementById("q5a").checked){
     count++
+}if(document.getElementById("q6a").checked){
+    count++
 }
 
 
