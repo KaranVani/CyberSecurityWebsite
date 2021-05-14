@@ -16,12 +16,13 @@ count = 0;
 
 if(document.getElementById("q1a").checked){
     count++
-    document.getElementsByClassName("quiz").style.color = 'blue';
-    // ive tried get elementsbyclass, by id, by everything! 
-
 }if(document.getElementById("q2a").checked){
     count++
 }if(document.getElementById("q3a").checked){
+    count++
+}if(document.getElementById("q4a").checked){
+    count++
+}if(document.getElementById("q5a").checked){
     count++
 }
 
