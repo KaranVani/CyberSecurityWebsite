@@ -27,7 +27,8 @@ if(document.getElementById("q1a").checked){
 }
 
 
-output.textContent = "You got " +count+ " out of 5 correct.";
+if (count>3) {output.textContent = "Well done! You got " +count+ " out of 5 correct."}
+else {output.textContent = "Try again, you only got " +count+ " out of 5 correct."}
 
   
 
