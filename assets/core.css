@@ -269,13 +269,25 @@ footer {
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1000px){
 
+  .images{
+    display:none;
+  }
+
+  .listz{
+    display:flex;
+
+
+  }
+
+  .content{
+    width:100%;
+    
+  }
   
   #posts article {
     display: flex;
 }
-  #posts article:nth-child(odd) {
-    flex-direction: column;
-}
+
 }
