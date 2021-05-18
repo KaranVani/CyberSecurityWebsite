@@ -249,6 +249,10 @@ footer {
   padding-top: 13px;
 }
 
+footer a{
+  color: rgb(179, 179, 85);
+}
+
 /*---------------End of Footer---------------*/
 /*---------------Media queries---------------*/
 @media screen and (max-width: 800px) {
