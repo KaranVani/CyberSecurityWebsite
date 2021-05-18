@@ -15,7 +15,7 @@ body {
   display: grid;
   /* Set width: aside main */
   /* Set height: head main/aside foot */
-  grid-template-rows: 100px 1fr 100px;
+  grid-template-rows: 100px auto 100px;
   /* Layout by row */
   grid-template-areas:
     "head head"
@@ -73,7 +73,7 @@ html.sr .listz {
 main {
   grid-area: main;
   /* Set min height to 3 page heights */
-  min-height: 300vh;
+  min-height: 100vh;
 
   background-color: #181818;
 }
@@ -266,4 +266,16 @@ footer {
       "main"
       "foot";
   }
+}
+
+
+@media screen and (max-width:500px){
+
+  
+  #posts article {
+    display: flex;
+}
+  #posts article:nth-child(odd) {
+    flex-direction: column;
+}
 }
