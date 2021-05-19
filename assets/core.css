@@ -94,6 +94,9 @@ main {
   color: rgb(179, 179, 85);
 }
 
+.content a {
+  color: rgb(179, 179, 85);
+}
 
 .button {
   background-color: #7798b3;
@@ -232,6 +235,11 @@ img {
 #submitbutton:hover{
   background-color: #4792cf;
   transition:0.5s;
+}
+
+#output{
+  font-size: 30px;
+  color: #7798b3;
 }
 
 
